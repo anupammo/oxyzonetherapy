@@ -1,0 +1,150 @@
+/* style by https://anupammondal.in */
+/* body.body-bgimg {
+    background-image: url(img/oxyzonetherapy-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+.navbar {
+    background-color: #00000070;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.btn {
+    border: #ffffff solid 2px;
+    border-radius: 0px;
+    width: 200px;
+    margin: 30px auto;
+    padding: 15px 30px;
+    background-color: #00000082;
+    text-transform: uppercase;
+}
+a.btn-plane {
+    border: #FF5722 solid 2px;
+    color: #FF5722;
+    border-radius: 0px;
+    width: 160px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover.btn {
+    color: #ffeb3b;
+}
+.txt-fff {
+  color: #ffffff;
+}
+.txt-blue {
+  color: #2196F3;
+}
+.txt-ozone {
+  color: #FF5722;
+}
+.txt-black {
+  color: #000000;
+}
+.section-padd {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.ico-mid {
+  width: fit-content;
+  margin: 30px auto;
+}
+.p-testimoni {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+header {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+header h1 {
+    font-weight: 900;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+header h2 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #000;
+}
+.block-bg-one {
+    background-image: url(https://images.pexels.com/photos/1677275/pexels-photo-1677275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+}
+.block-bg-two {
+    background-image: url(https://images.pexels.com/photos/1632780/pexels-photo-1632780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+}
+.block-bg-last {
+    background-image: url(https://images.pexels.com/photos/842210/pexels-photo-842210.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+}
+.block-bg-fill {
+    padding: 60px 15px 15px 15px;
+    margin-bottom: 30px;
+    background-color: #000000aa;
+    border: #fff solid 3px;
+}
+.icon-block {
+    width: fit-content;
+    margin: 25px auto;
+}
+.no-padd {
+    padding: 0px !important;
+}
+.pics-block {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+.facts {
+    border: #fff solid 1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.bgdark {
+    background-color: #00000080;
+}
+.parallax-one {
+  /* background-image: url("img/oxyzonetherapy-header.jpg"); */
+  background-image: url('https://images.pexels.com/photos/1117493/pexels-photo-1117493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-two {
+  /* background-image: url("img/oxyzonetherapy-header.jpg"); */
+  background-image: url('https://images.pexels.com/photos/1117493/pexels-photo-1117493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-three {
+  background-image: url('https://images.pexels.com/photos/1446319/pexels-photo-1446319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
