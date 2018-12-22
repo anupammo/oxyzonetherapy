@@ -1,10 +1,4 @@
 /* style by https://anupammondal.in */
-/* body.body-bgimg {
-    background-image: url(img/oxyzonetherapy-header.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
 .navbar {
     background-color: #00000070;
     border-radius: 0px;
@@ -122,23 +116,14 @@ header h2 {
 .bgdark {
     background-color: #00000080;
 }
-.parallax-one {
-  /* background-image: url("img/oxyzonetherapy-header.jpg"); */
-  background-image: url('https://images.pexels.com/photos/1117493/pexels-photo-1117493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  min-height: 50px;
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .parallax-two {
-  /* background-image: url("img/oxyzonetherapy-header.jpg"); */
   background-image: url('https://images.pexels.com/photos/1117493/pexels-photo-1117493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   min-height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -50px;
 }
 .parallax-three {
   background-image: url('https://images.pexels.com/photos/1446319/pexels-photo-1446319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
