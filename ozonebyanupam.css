@@ -9,7 +9,10 @@
 .txt-ozone {
   color: #FF5722;
 }
-a.txt-black, .txt-black {
+.txt-green {
+    color: #02b109;
+}
+a.txt-black, a.txt-black:hover {
   color: #000000;
   text-decoration: none;
 }
@@ -23,7 +26,7 @@ a.txt-black, .txt-black {
 }
 .section-padd {
   padding-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 .section-normal {
   margin-top: 80px;
@@ -67,6 +70,10 @@ hr {
     border-top: 3px solid #FFEB3B;
     width: 100px;
 }
+hr.hr-ozone {
+    border-top: 3px solid #FF5722;
+    width: 100px;
+}
 a.btn {
     border: #ffffff solid 2px;
     border-radius: 0px;
@@ -75,6 +82,7 @@ a.btn {
     padding: 10px 30px;
     background-color: #00000082;
     text-transform: uppercase;
+    transition: .5s ease;
 }
 a.btn-plane {
     border: #FF5722 solid 2px;
@@ -88,7 +96,17 @@ a.btn-plane {
     text-decoration: none;
 }
 a:hover.btn {
-    color: #ffeb3b;
+    color: #000000;
+    background-color: #fff;
+    border: #000 solid 2px;
+}
+.mid-block {
+    margin: 0 auto;
+    width: fit-content;
+}
+.h3-bold {
+    font-weight: 900;
+    margin-top: 60px;
 }
 /* Global Style */
 /* Homepage */
@@ -166,7 +184,8 @@ header h2 {
   margin-top: -50px;
 }
 .parallax-three {
-  background-image: url('https://images.pexels.com/photos/1446319/pexels-photo-1446319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  /* background-image: url('https://images.pexels.com/photos/1446319/pexels-photo-1446319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+  background-image: url('https://images.pexels.com/photos/1487952/pexels-photo-1487952.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -205,5 +224,80 @@ header h2 {
   font-size: 16px;
   padding: 15px 20px;
 }
-/* Hover effect by anupammondal.in */
 /* Homepage */
+/* about page */
+.parallax-about {
+  background-image: url('https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.table {
+    margin-top: 20px;
+}
+.table.table-ozone th {
+    text-transform: uppercase;
+    background-color: #FFF;
+    border: #fff dashed 1px;
+    padding: 15px 10px;
+    color: #FF5722;
+}
+.table.table-ozone td {
+    border: #FFF dashed 1px;
+    padding: 5px 8px;
+    background-color: #0006;
+    color: #fff;
+}
+.table.table-blue th {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #2196F3;
+    border: #2196F3 dashed 1px;
+    padding: 15px 10px;
+    color: #fff;
+}
+.table.table-blue td {
+    text-align: center;
+    border: #2196F3 dashed 1px;
+    padding: 5px 8px;
+}
+figure {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+figcaption {
+    display: block;
+    caption-side: top;
+    text-align: center;
+    margin-bottom: -25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+}
+.img-linux {
+    border: #ff5722 solid 30px;
+    border-bottom: #ff5722 solid 1px;
+    border-left: #ff5722 solid 1px;
+    border-right: #ff5722 solid 1px;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.ozone-facts {
+    border: #fff solid 1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 15px 5px 10px 5px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.ozone-facts:hover {
+    background-color: #0006;
+}
+.facts-h5 {
+    font-size: 1.1em;
+}
+/* about page */
+/* Hover effect by anupammondal.in */
