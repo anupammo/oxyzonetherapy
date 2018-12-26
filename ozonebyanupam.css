@@ -157,7 +157,13 @@ header h2 {
 }
 .p-testimoni {
     font-size: 1.2em;
-    text-align: center;
+    text-align: justify;
+    margin: 25px auto;
+}
+.img-testimoni {
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 .facts {
     border: #fff solid 1px;
