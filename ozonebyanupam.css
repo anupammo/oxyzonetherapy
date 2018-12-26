@@ -108,6 +108,10 @@ a:hover.btn {
     font-weight: 900;
     margin-top: 60px;
 }
+.i-foot {
+    padding-right: 5px;
+    font-size: 1.2em;
+}
 /* Global Style */
 /* Homepage */
 header {
@@ -149,6 +153,23 @@ header h2 {
     margin-bottom: 30px;
     background-color: #000000aa;
     border: #fff solid 3px;
+}
+.no-padd h3 {
+    background-color: #2196F3;
+    margin: 0px;
+    padding: 15px 0px;
+    color: #fff;
+    font-weight: 900;
+}
+.no-padd a {
+    background-color: #2196F3;
+    margin: 0px;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
 }
 .pics-block {
     width: 100%;
