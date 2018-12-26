@@ -74,7 +74,7 @@ hr.hr-ozone {
     border-top: 3px solid #FF5722;
     width: 100px;
 }
-a.btn {
+a.btn{
     border: #ffffff solid 2px;
     border-radius: 0px;
     width: 180px;
@@ -83,6 +83,21 @@ a.btn {
     background-color: #00000082;
     text-transform: uppercase;
     transition: .5s ease;
+}
+button.btn {
+    border: #FF5722 solid 1px;
+    border-radius: 0px;
+    width: 180px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #FF5722;
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+button.btn:hover {
+    border: #FF5722 solid 1px;
+    color: #FF5722;
+    background-color: #FFF;
 }
 a.btn-plane {
     border: #FF5722 solid 2px;
@@ -327,4 +342,17 @@ figcaption {
     font-size: 1.1em;
 }
 /* about page */
+/* contact page */
+.form-control {
+    border-radius: 0px;
+    border: #FF5722 solid 1px;
+    color: #2196F3;
+        background-color: #000000e0;
+    text-transform: uppercase;
+}
+#cform {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+/* contact page */
 /* Hover effect by anupammondal.in */
