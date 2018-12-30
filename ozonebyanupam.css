@@ -71,7 +71,8 @@ hr {
     width: 100px;
 }
 hr.hr-left {
-    border-top: 3px solid #FFEB3B;
+    border-top: 3px solid #FF5722;
+    /* border-top: 3px solid #FFEB3B; */
     width: 100px;
     margin-left: 0px;
 }
@@ -281,7 +282,6 @@ header h2 {
   padding: 15px 20px;
 }
 /* faq page */
-
 /* Homepage */
 /* about page */
 .parallax-about {

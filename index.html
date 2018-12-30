@@ -322,7 +322,7 @@
         </div>
       </div>
     </section>
-    <section class="parallax-three">
+    <section class="parallax-three anim">
       <div class="bgdark section-padd">
         <div class="container">
           <div class="row">
@@ -358,44 +358,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col-md-3 col-sm-2 col-xs-12"></div>
-            <div class="col-md-6 col-sm-8 col-xs-12">
-              <h3 class="text-center text-uppercase h3-bold txt-fff">SEND A MESSAGE TO US</h3>
-              <hr />
-              <form>
-                <div class=" col-sm-6 col-xs-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="FirstName" placeholder="First Name">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12">
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="LastName" placeholder="Last Name">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12">
-                  <div class="form-group">
-                    <input type="tel" class="form-control" id="ContactNumber" placeholder="Contact Number">
-                  </div>
-                </div>
-                <div class="col-sm-6 col-xs-12">
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="InputEmail" placeholder="Email">
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div class="form-group">
-                    <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
-                  </div>
-                  <button type="submit" class="btn center-block">Submit</button>
-                </div>
-              </form>
-            </div>
-            <div class="col-md-3 col-sm-2 col-xs-12"></div>
-          </div>
-        </div> -->
       </div>
     </section>
     <section class="section-padd">
@@ -492,17 +454,20 @@
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script>
-    $('.count').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 8000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
+      $(".anim").mouseenter(function(){
+        $('.count').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 2000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
         });
-    });
+        $('.count').removeClass('count').addClass('counted');
+      });
     </script>
   </body>
 </html>
