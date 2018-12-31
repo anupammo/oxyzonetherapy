@@ -137,9 +137,16 @@ a:hover.btn {
     font-weight: 900;
     margin-top: 60px;
 }
+h3.prd-head {
+  margin-top: 25px;
+}
 .i-foot {
     padding-right: 5px;
     font-size: 1.2em;
+}
+img.nav.brand-right {
+    width: 150px;
+    margin: 8px auto;
 }
 /* Global Style */
 /* Homepage */
