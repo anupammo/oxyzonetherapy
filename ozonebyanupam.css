@@ -24,6 +24,13 @@ a.txt-black, a.txt-black:hover {
     width: fit-content;
     margin: 25px auto;
 }
+.icon-block i {
+    transition: .4s ease;
+    cursor: crosshair;
+}
+.icon-block:hover i {
+    color: #ff5722;
+}
 .section-padd {
   padding-top: 40px;
   padding-bottom: 20px;
@@ -126,6 +133,12 @@ a.btn-plane {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+    transition: .5s ease;
+}
+a.btn-plane:hover {
+    background-color: #EE5722;
+    border: #FF5722 solid 2px;
+    color: #FFF;
 }
 a:hover.btn {
     color: #000000;
