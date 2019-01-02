@@ -84,6 +84,9 @@ ul.list-unstyled li {
     margin-bottom: 5px;
     font-size: 1.1em;
 }
+ul.list-styled li {
+    list-style-type: none;
+}
 dl dt, dl dd {
     margin-bottom: 5px;
     font-size: 1.1em;
@@ -131,7 +134,7 @@ a:hover.btn {
 }
 .mid-block {
     margin: 0 auto;
-    width: fit-content;
+    /* width: fit-content; */
 }
 .h3-bold {
     font-weight: 900;
