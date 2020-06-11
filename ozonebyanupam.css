@@ -395,12 +395,33 @@ figcaption {
 }
 /* contact page */
 /* products page */
-.parallax-product {
-  /* background-image: url('https://images.pexels.com/photos/1187538/pexels-photo-1187538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-  background-image: url('https://images.pexels.com/photos/115553/pexels-photo-115553.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+.parallax-product-zeon {
+  background-image: url('https://images.pexels.com/photos/789296/pexels-photo-789296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   height: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-product-nisa {
+  background-image: url('https://images.pexels.com/photos/1586481/pexels-photo-1586481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-product-gwpone {
+  background-image: url('https://images.pexels.com/photos/160767/women-friends-friendship-helping-together-160767.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1260');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-product-gwptwo {
+  background-image: url('https://images.pexels.com/photos/302083/pexels-photo-302083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
