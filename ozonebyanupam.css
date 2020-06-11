@@ -402,6 +402,7 @@ figcaption {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 50px;
 }
 .parallax-product-nisa {
   background-image: url('https://images.pexels.com/photos/1586481/pexels-photo-1586481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -410,6 +411,7 @@ figcaption {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 50px;
 }
 .parallax-product-gwpone {
   background-image: url('https://images.pexels.com/photos/160767/women-friends-friendship-helping-together-160767.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1260');
@@ -418,6 +420,7 @@ figcaption {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 50px;
 }
 .parallax-product-gwptwo {
   background-image: url('https://images.pexels.com/photos/302083/pexels-photo-302083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -426,6 +429,7 @@ figcaption {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 50px;
 }
 /* products page */
 /* faq page */
